@@ -81,5 +81,4 @@ test:
 production:
   <<: *default
   database: pusher-chat_production
-  username: pusher-chat
-  password: <%= ENV['PUSHER-CHAT_DATABASE_PASSWORD'] %>
+ 
